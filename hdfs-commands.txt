@@ -1,1 +1,7 @@
+#In hdfs file system /ls is the root
 
+#commands to check the files inside root hdfs directory
+hadoop fs -ls /
+
+#command to create directory in hdfs 
+hadoop fs -mkdir /file_name
