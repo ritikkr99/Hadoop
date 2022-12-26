@@ -11,3 +11,6 @@ hadoop fs -put test_demo/trees.csv /input_data
 
 #copy from hdfs to local fs
 hadoop fs -copyToLocal /input_data/trees.csv ./
+
+#delete a file in hdfs
+hadoop fs -rm -r /test_1
